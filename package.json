@@ -1,0 +1,20 @@
+{
+  "name": "simpler-beta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyoVilleC7/simpler-beta.git"
+  },
+  "keywords": [],
+  "author": "ryotarohada <ryotarohada@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyoVilleC7/simpler-beta/issues"
+  },
+  "homepage": "https://github.com/RyoVilleC7/simpler-beta#readme"
+}

@@ -1,8 +1,12 @@
 {
   "name": "simpler-beta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +16,7 @@
   },
   "keywords": [],
   "author": "ryotarohada <ryotarohada@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RyoVilleC7/simpler-beta/issues"
   },

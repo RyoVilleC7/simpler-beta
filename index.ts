@@ -1,10 +1,10 @@
-export interface options {
+interface options {
     observation?: boolean;
 }
 
 export default class Simpler {
-    private _body: Element;
-    private _pageName: string | null;
+    private _body!: Element;
+    private _pageName!: string | null;
     public pathMap: any;
   
     constructor(options: options) {

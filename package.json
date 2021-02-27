@@ -1,14 +1,13 @@
 {
   "name": "simpler-beta",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/RyoVilleC7/simpler-beta/issues"
   },
-  "homepage": "https://github.com/RyoVilleC7/simpler-beta#readme"
+  "homepage": "https://github.com/RyoVilleC7/simpler-beta#readme",
+  "dependencies": {
+    "typescript": "^4.2.2"
+  }
 }

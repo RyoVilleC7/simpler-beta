@@ -1,2 +1,4 @@
 build
 tsconfig.json
+index.ts
+test.ts
